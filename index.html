@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/98a78dc4db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="search-style.css" type="text/css"/>
+    <title>Home - Library & Learning Centre: SAE Institute UK & EU</title>
+    <link rel="icon" type="image/ico" href="asset/favicon_io/logo_square_trans.png"/>
+    
+</head>
+<body>
+  <div class="table">
+        <div class="td">
+          <a href="index.html" style="text-decoration:none;"><header><img class="logo" alt="SAE Institute" src="https://i.imgur.com/r9XvP5S.png" width="200" />
+          <h1>
+            LIBRARY & LEARNING CENTRE
+          </h1>
+          <h3>
+            UK & EU Services
+          </h3>
+              </header>
+            </a>
+            
+            <div class="nav">
+                <a href="#home" class="active" style="text-decoration:none;">&nbsp;</a>
+            <ul id="myLinks">
+              <a href=""><li><i class="fas fa-question-circle"></i>Ask a Librarian</li></a>
+              <a href=""><li><i class="fas fa-search"></i>Search FAQs</li></a>
+              <a href="https://uksaelibrary.on.worldcat.org/myaccount"><li><i class="fas fa-user-circle"></i>Library Account</li></a>
+              <a href="https://campusonline.uk.sae.edu/"><li><i class="fas fa-graduation-cap"></i>Campus Online</li></a>
+            </ul>
+            <div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+            </a>
+            </div>
+              <script>
+              function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+};
+                </script>
+                
+          </div>
+            
+          <div id="discovery-search-box" style="margin: 1em 0px 2em 1.2em;"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+          <div style="display: flex; box-sizing: border-box; text-align: center;"><span class="material-tab active-tab" data-facets="[{&quot;key&quot;:&quot;format&quot;,&quot;value&quot;:&quot;all&quot;}]" tabindex="0">Everything</span><span class="material-tab" data-facets="[{&quot;key&quot;:&quot;subformat&quot;,&quot;value&quot;:&quot;Book::book_digital&quot;}]" tabindex="0">Ebooks</span><span class="material-tab" data-facets="[{&quot;key&quot;:&quot;subformat&quot;,&quot;value&quot;:&quot;Artchap::artchap_artcl&quot;}]" tabindex="0">Articles</span></div>
+            <form id="discovery-search-form">
+              <div id="discovery-search-input">
+                <div style="display: flex;  flex-grow: 1;">
+                  <input type="text" id="discovery-search" style="display: inline-block; width: 100%; height: 3em; font-size: 1em; padding: 0px 0.5em; margin-bottom: 0.5em; color: black; background-color: white; border: 1px solid rgb(204, 204, 204); box-shadow: none;" required="" autocomplete="off" placeholder="Search the Library Catalogue">
+                </div>
+                <div>
+                  <input type="submit" value="Search" id="discovery-search-button">
+                </div>
+              </div>
+              <div style="display: flex; justify-content: space-between;">
+                <p style="flex-basis: 100%; font-size: 0.9em; text-align: right;">
+                  <a id="discovery-advanced-search" href="https://uksaelibrary.on.worldcat.org/advancedsearch" style="text-decoration: underline; color: rgb(255, 255, 255);" target="_blank">Advanced Search</a>
+                </p>
+              </div>
+            </form>
+            <script type="text/javascript">
+(function(){var d,w,tabList,h,form,input,urlBase,active,facets,v,r,rt,a,f,select,query;
+d=document;
+w=window;
+r=(function(){try{return w.self!==w.top;}catch(e){return true;}})();
+rt=r?'_self':'_blank';
+a=d.getElementById('discovery-advanced-search');
+if(a)a.setAttribute('target',rt);
+tabList=d.querySelectorAll('#discovery-search-box span.material-tab');
+tabList=[].slice.call(tabList);h=function(e){if(e.keyCode&&e.keyCode!==13)return;
+tabList.forEach(function(it){it.className='material-tab';});
+this.className='material-tab active-tab';};
+tabList.forEach(function(tab){tab.addEventListener('click',h);
+tab.addEventListener('keydown',h);});
+form=d.getElementById('discovery-search-form');
+input=d.getElementById('discovery-search');
+select=d.getElementById('discovery-search-select');
+urlBase='https://uksaelibrary.on.worldcat.org/external-search?queryString=#T#&clusterResults=off&stickyFacetsChecked=on&baseScope=wz%3A66401#F#';form.addEventListener('submit',function(e){e.preventDefault();e.stopPropagation();
+f='';active=d.querySelector('.material-tab.active-tab');
+if(active){facets=JSON.parse(active.getAttribute('data-facets')||'[]');
+facets.forEach(function(facet){console.log(facet);
+if(facet.key&&facet.value&&facet.value!=='all'){f+='&'+facet.key+'='+facet.value;}})}query=input.value;
+if(select){var index=select.options[select.selectedIndex].value
+if(index!=='kw')query=select.options[select.selectedIndex].value+':'+query;}w.open(urlBase.replace('#T#',encodeURIComponent(query)).replace('#F#',f),rt);});})()</script>
+          </div>
+          
+          <a href="" class="notice-block">
+                <i class="fas fa-exclamation-triangle"></i>
+                Notice block
+          </a>
+        </div>
+        <div class="td sub-resource" style="vertical-align:top;">
+          <h2>
+            Subject Resources:
+          </h2>
+          <div class="img-cont">
+            <a href=""><img src="asset/Library-Module_CreativeIndustries.png"/ alt="Creative Industries"></a>
+            <a href="audio.html"><img src="asset/Library-Module_Audio.png"/ alt="Audio"></a>
+            <a href=""><img src="asset/Library-Module_VFX.png"/ alt="VFX"></a>
+            <a href=""><img src="asset/Library-Module_Animation.png"/ alt="Animation"></a>
+            <a href=""><img src="asset/Library-Module_Film.png"/ alt="Film"></a>
+            <a href=""><img src="asset/Library-Module_Games.png"/ alt="Games"></a>
+            <a href=""><img src="asset/Library-Module_Web.png"/ alt="Web"></a>
+            <a href=""><img src="asset/Library-Module_MusicBusiness.png"/ alt="Music Business"></a>
+            <a href=""><img src="asset/Library-Module_CreativeResearch.png"/ alt="Creative Research"></a>
+          </div>
+          
+          
+        </div>
+      <footer>
+            <div>
+              Last updated 2020-09-05 00:27
+            </div>
+            <div class="copyright">
+            <i class="far fa-copyright"></i>
+                SAE Institute 
+            <script>document.write( new Date().getFullYear() );</script> 
+            </div>
+          </footer>
+</div>
+</body>
+</html>
