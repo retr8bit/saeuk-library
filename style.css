@@ -57,12 +57,12 @@ input {
   padding:10px;
   margin:20px 0;
   }
-#myLinks ul {
+.nav ul {
   list-style-type: none;
   padding:0;
   margin:10px 0 30px 20px;
   }
-#myLinks li {
+.nav ul li {
   display:inline-flex;
   border:3px solid white;
   background-color:#292929;
@@ -101,7 +101,7 @@ li .fa-graduation-cap {
 .fa-bars {
   content:"\f0c9";
   }
-#mylinks li:hover {
+.nav ul li:hover {
   background-color:#fff;
   color:#000;
   }
@@ -200,7 +200,7 @@ text-align: left;
       overflow: hidden;
       position: relative;
   }
-  .nav #myLinks {
+  .nav ul {
       margin:0 0 0 20px;
   }   
  .nav a.icon {
@@ -219,14 +219,14 @@ text-align: left;
       color:#292929;
       background-color:white;
   }
-  #mylinks ul {
+  .nav ul {
       z-index: 3;
       overflow-x: hidden;
       width: 235px;
       transition-duration: 0.4s;
       display: none;
   }
-  #mylinks li {
+  .nav ul li {
       width:100%;
   }
 }
