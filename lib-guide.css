@@ -13,7 +13,7 @@
     min-width:180px;
     z-index: 2;
 }
-.button3 {
+.button2, .button3 {
     display: inline-flex;
     padding:10px 20px;
     margin:3px;
@@ -91,4 +91,7 @@ img.guide-title {
     color:#307fe2;
     text-transform:uppercase;
     vertical-align: middle;
+}
+.button3:hover::before {
+    content: "Use your SAE Email";
 }
