@@ -163,7 +163,7 @@ text-align: left;
 }
 
 /* Tablet Dynamic style */
-
+/* Removed for browser compatibility
 @media only screen and (max-width:1300px) {
   .td {
   width:100%;
@@ -175,8 +175,18 @@ text-align: left;
           background-color:#292929;
       }
   }
-
+*/
 @media only screen and (max-width:925px) {
+  .td {
+    width:100%;
+    }
+  .sub-resource {
+    background-color:#292929;
+    }
+  footer {
+            background-color:#292929;
+        }
+  }
   .sub-resource {
     background-color:transparent;
   }
