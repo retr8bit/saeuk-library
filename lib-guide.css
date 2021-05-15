@@ -103,6 +103,7 @@ img.guide-title {
     text-align:left;
     width:100%;
     color:white;
+    margin-left:10px;
 }
 .welcome-content h1, .welcome-content img {
     color:#307fe2;
