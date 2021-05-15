@@ -73,7 +73,7 @@ li {
   height:40px;
   align-items:center;
   justify-content: center;
-  min-width:130px;
+  min-width:110px;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   }
