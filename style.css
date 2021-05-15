@@ -219,14 +219,14 @@ text-align: left;
       color:#292929;
       background-color:white;
   }
-  ul {
+  .mylinks ul {
       z-index: 3;
       overflow-x: hidden;
       width: 235px;
       transition-duration: 0.4s;
       display: none;
   }
-  li {
+  .mylinks li {
       width:100%;
   }
 }
