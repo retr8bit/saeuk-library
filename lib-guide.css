@@ -98,3 +98,15 @@ img.guide-title {
 .button3:hover span {
     display:none;
 }
+.welcome-content {
+    display:block;
+    text-align:left;
+    width:100%;
+    color:white;
+}
+.welcome-content h1, .welcome-content img {
+    color:#307fe2;
+    text-transform:uppercase;
+    vertical-align: middle;
+    text-align:center;
+}
