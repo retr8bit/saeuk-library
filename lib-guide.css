@@ -95,3 +95,6 @@ img.guide-title {
 .button3:hover::before {
     content: "Use your SAE Email";
 }
+.button3:hover span {
+    display:none;
+}
