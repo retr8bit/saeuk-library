@@ -57,12 +57,12 @@ input {
   padding:10px;
   margin:20px 0;
   }
-ul {
+.nav ul {
   list-style-type: none;
   padding:0;
   margin:10px 0 30px 20px;
   }
-li {
+.nav li {
   display:inline-flex;
   border:3px solid white;
   background-color:#292929;
@@ -219,14 +219,14 @@ text-align: left;
       color:#292929;
       background-color:white;
   }
-  ul {
+  .nav ul {
       z-index: 3;
       overflow-x: hidden;
       width: 235px;
       transition-duration: 0.4s;
       display: none;
   }
-  li {
+  .nav li {
       width:100%;
   }
 }
