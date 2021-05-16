@@ -228,6 +228,7 @@ text-align: left;
   }
   .td {
     min-width:300px;
+    margin-left:10px;
   }
   .sub-resource {
     text-align:left;
@@ -268,7 +269,6 @@ text-align: left;
   }
   footer {
     text-align: right;
-    margin:0;
   }
   body {
     height:1550px;
