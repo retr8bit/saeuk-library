@@ -57,12 +57,12 @@ input {
   padding:10px;
   margin:20px 0;
   }
-.nav ul {
+nav ul {
   list-style-type: none;
   padding:0;
   margin:10px 0 30px 20px;
   }
-.nav li {
+nav li {
   display:inline-flex;
   border:3px solid white;
   background-color:#292929;
@@ -101,7 +101,7 @@ li .fa-graduation-cap {
 .fa-bars {
   content:"\f0c9";
   }
-.nav li:hover {
+nav li:hover {
   background-color:#fff;
   color:#000;
   }
@@ -187,14 +187,14 @@ a {
       color:transparent;
       line-height:35px;
   }
-  .nav {
+  nav {
       overflow: hidden;
       position: relative;
   }
-  .nav #myLinks {
+  nav #myLinks {
       margin:0 0 0 20px;
   }   
- .nav a.icon {
+  nav a.icon {
     color:white;
     border:3px solid white;
     border-radius:3px;
@@ -206,18 +206,18 @@ a {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
   }
-  .nav a.icon:hover {
+  nav a.icon:hover {
       color:#292929;
       background-color:white;
   }
-  .nav ul {
+  nav ul {
       z-index: 3;
       overflow-x: hidden;
       width: 235px;
       transition-duration: 0.4s;
       display: none;
   }
-  .nav li {
+  nav li {
       width:100%;
   }
 }
